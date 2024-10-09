@@ -1,13 +1,13 @@
-def pedir_altura (altura_cm):
-    altura_cm=input ("Ingrese su altura en cm: ")
+def pedir_altura ():
+    altura_cm=int(input ("Ingrese su altura en cm: "))
     while altura_cm <10 or altura_cm>300:
-        altura_cm=input("Altura no válida, introduzca su altura en cm: ")
+        altura_cm=int(input("Altura no válida, introduzca su altura en cm: "))
     return  altura_cm
 
-def pedir_peso (peso_kg):
-    peso_kg=input ("Ingrese su altura en cm: ")
+def pedir_peso ():
+    peso_kg=int(input ("Ingrese su peso en cm: "))
     while peso_kg <10 or peso_kg>300:
-        peso_kg=input("Peso no válido, introduzca su peso en kg: ")
+        peso_kg=int(input("Peso no válido, introduzca su peso en kg: "))
     return  peso_kg
 
 def calcular_imc (altura_cm, peso_kg):
